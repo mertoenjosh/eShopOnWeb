@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-az400-eshoponweb-mertoenjosh
   LOCATION: westeurope
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: 3aa56087-45d6-4a99-b04e-404502eba120
+  SUBSCRIPTION-ID: ${{ env.SUBSCRIPTION-ID }}
   WEBAPP-NAME: az400-webapp-mertoenjosh
 
 
